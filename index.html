@@ -8,8 +8,8 @@
 </head>
 <body>
     <header>
-        <h1>landing page</h1>
-        <nav>
+        <h1>Landing page</h1>
+        <nav id="nav__header">
             <ul>
                 <li><a href="#about">Acerca de</a></li>
                 <li><a href="#services">Servicios</a></li>
@@ -18,38 +18,62 @@
         </nav>
     </header>
 
-    <section>
-        <article>
-            <p>POP IT!</p>
-            <p>Descripcion del producto</p>
-            <button type="submit">Ir</button>
+    <section id="section__acerca_de">
+        <article id="article__acerca_de">
+            <p id="p__pop_it">POP IT!</p>
+            <p id="p__descripcion">Descripcion del producto</p>
+            <button type="submit" id="button__pop_it">Ir</button>
         </article>
     </section>
 
-    <section>
-        <article>
+    <section id="section__informacion_importante">
+        <article id="article__informacion_importante">
             <h2>Información importante</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid sit, ipsa laborum eius veritatis accusamus ab ea rem, natus nesciunt sed. Quasi ad tenetur a repellat quos doloribus harum quaerat?</p>
         </article>
     </section>
 
-    <section>
+    <main>
         <h2>Opciones</h2>
+        <section id="section__cards">
+                <article class="cards">
+                    <img src="./images/square.png" alt="opcion 1" style="height: 100px;" >
+                    <p>Detalles de opcion 1</p>
+                    <button type="submit" class="Boton__opciones">Seleccionar</button>
+                </article>
+
+                <article class="cards">
+                    <img src="./images/amongus.png" alt="opcion 2" style="height: 100px;">
+                    <p>Detalles de opcion 2</p>
+                    <button type="submit" class="Boton__opciones">Seleccionar</button>
+                </article>
+
+                <article class="cards">
+                    <img src="./images/round.png" alt="opcion 3" style="height: 100px;">
+                    <p>Detalles de opcion 3</p>
+                    <button type="submit" class="Boton__opciones">Seleccionar</button>
+                </article>
+        </section>
+    </main>
+
+    <section>
         <article>
-            <img src="./images/square.png" alt="opcion 1">
-            <p>Detalles de opcion 1</p>
-            <button type="submit">Seleccionar</button>
+            <h2>Informacion extra</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, tempore, minima similique animi corrupti voluptates tenetur molestias praesentium dolores obcaecati pariatur doloribus, odit sint officiis neque. Illo dolorem dolore cum.</p>
         </article>
-        <article>
-            <img src="./images/amongus.png" alt="opcion 2">
-            <p>Detalles de opcion 2</p>
-            <button type="submit">Seleccionar</button>
-        </article>
-        <article>
-            <img src="./images/circle.png" alt="opcion 3">
-            <p>Detalles de opcion 3</p>
-            <button type="submit">Seleccionar</button>
-        </article>
+        <img src="./images/photo.jpg" alt="imagen_extra">
     </section>
+
+    <footer>
+        <nav>
+            <h1>landing page</h1>
+            <ul>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </footer>
+
 </body>
 </html>
